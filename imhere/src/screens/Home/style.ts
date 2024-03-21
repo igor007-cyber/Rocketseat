@@ -20,13 +20,14 @@ export const style = StyleSheet.create({
     },
 
     input:{
+        flex:1,
         height:56,
         backgroundColor:'#1F1E25',
         borderRadius:5,
         color:'white',
         padding:16,
-        fontSize:18
-        
+        fontSize:18,
+        marginRight:12
     },
 
     buttomText:{
@@ -41,5 +42,12 @@ export const style = StyleSheet.create({
         backgroundColor:'#31CF67',
         alignItems:"center",
         justifyContent:'center'
+    },
+
+    form:{
+        width:'100%',
+        flexDirection:'row',
+        marginTop:36,
+        marginBottom:42
     }
   })
